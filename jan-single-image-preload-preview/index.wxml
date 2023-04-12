@@ -1,0 +1,13 @@
+<!-- <view wx:if="{{ !loadFlag }}" class="text-preload"
+  style="width: {{ width? width : defaultWidth }}; height: {{ height? height : defaultHeight }}; font-size: {{ fontsize? fontsize : defaultFontsize }}; color: {{ color? color : defaultColor }}; ">
+  <text>{{ loadtext? loadtext : defaultLoadtext }}</text>
+</view> -->
+
+
+
+<image wx:if='{{!loadFlag}}' src="{{srcPreload}}" mode="{{modePreload}}"
+  style="width: {{ width? width : defaultWidth }}; height: {{ height? height : defaultHeight }};" />
+
+<image src="{{src}}" mode="{{ mode? mode : defaultMode }}" lazy-load="{{ lazyload }}" catchload='onLoad'
+  catchtap="onPreview" data-src="{{src}}" data-urls="{{urls}}"
+  style="width: {{ loadFlag? ( width? width : defaultWidth ) : 0 }}; height: {{ loadFlag? ( height? height : defaultHeight ) : 0 }}; border-radius: {{borderradius? borderradius : defaultBorderradius }}; margin: {{ margin? margin : defaultMargin }}; " />
