@@ -1,5 +1,5 @@
 # wechat_miniprogram_components
-These are the customized components I made for Wechat miniprogram projects.
+These are the customized components I made for Wechat Miniprogram projects.
 
 There are some components here and I hope they can help you on learning or working.
 
@@ -44,7 +44,7 @@ Code example:
   
  
  
-Any issues you can send email to me if I have time to check.
+Any issues you can send email to me if I have time to check. I am in Shenzhen city.
 jan_zeng
 @@@  
 outlook.com
