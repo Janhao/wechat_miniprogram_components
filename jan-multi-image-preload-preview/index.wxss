@@ -1,0 +1,3 @@
+.multi-image-wrapper {
+  display: inline-block;
+}

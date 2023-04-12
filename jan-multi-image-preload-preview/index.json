@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "jan-single-image-preload-preview": "../jan-single-image-preload-preview/index"
+  }
+}
