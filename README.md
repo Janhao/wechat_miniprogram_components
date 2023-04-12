@@ -12,12 +12,12 @@ They can be used easily. Good luck for you.
 for single image display with preload, lazyload, preview function. And you can turn off some features by options input.
 
 Code example: 
-  .wxml
+  .wxml part
   <janui-single-image-preload-preview src="{{itm}}" urls="{{urls}}" lazyload="{{defaultLazyload}}" margin="{{ urls.length==1? defaultMargin1 : defaultMargin2 }}"
   width="{{ urls.length==1? defaultWidthHeight1 : ( urls.length==2? defaultWidthHeight2 : '' ) }}"
   height="{{ urls.length==1? defaultWidthHeight1 : ( urls.length==2? defaultWidthHeight2 : '' ) }}" />
 
-  .js
+  .js part
   urls: [
   { imgUrl: "https://car2.autoimg.cn/cardfs/product/g25/M01/DC/03/1400x0_1_q95_autohomecar__ChxkqWIumySASZTzAA-Y5ruhR4E911.jpg" },
   { imgUrl: "https://car3.autoimg.cn/cardfs/product/g25/M08/DC/03/1400x0_1_q95_autohomecar__ChxkqWIumyWAPbyGAA1Wyj5s4TI348.jpg" },
@@ -31,10 +31,10 @@ Code example:
 for multi-image display with preload, lazyload, preview function. And you can turn off some features by options input.
 
 Code example: 
-  .wxml
+  .wxml part
   <jan-multi-image-preload-preview urls="{{ urls }}" />
   
-  .js
+  .js part
   urls: [
   { imgUrl: "https://car2.autoimg.cn/cardfs/product/g25/M01/DC/03/1400x0_1_q95_autohomecar__ChxkqWIumySASZTzAA-Y5ruhR4E911.jpg" },
   { imgUrl: "https://car3.autoimg.cn/cardfs/product/g25/M08/DC/03/1400x0_1_q95_autohomecar__ChxkqWIumyWAPbyGAA1Wyj5s4TI348.jpg" },
