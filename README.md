@@ -45,6 +45,3 @@ Code example:
  
  
 Any issues you can send email to me if I have time to check. I am in Shenzhen city.
-jan_zeng
-@@@  
-outlook.com
